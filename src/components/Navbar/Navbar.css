@@ -22,12 +22,12 @@ nav {
 }
 
 #basic-navbar-nav {
-  width: 68vw;
+  width: 80vw;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: white !important;
-  font-size: 0.7rem !important;
+  font-size: 0.75rem !important;
   margin-left: 1rem !important;
 }
 
@@ -39,7 +39,7 @@ nav {
 }
 
 .logo-white {
-  height: 12vh;
+  height: 12.3vh;
 }
 
 .all-sec8 {
