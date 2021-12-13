@@ -203,7 +203,7 @@ function App() {
             <div className='div-sec4-img'>
               <img className='section2-img-right2' src={crown}></img>
             </div>
-            <div className='section-2-parrafos'>
+            <div className='section-4-parrafos'>
               <h1 className='h1-right-section4'>Bonus flips</h1>
               <p>
                 In every coin flip there is a chance the coin will land on the edge. Since we love
@@ -250,7 +250,7 @@ function App() {
             <div className='div-sec4-img'>
               <img className='section2-img-right2' src={gameLogo}></img>
             </div>
-            <div className='section-2-parrafos'>
+            <div className='section-5-parrafos'>
               <h1 className='p5-right'>Play Coin Flip 2 for free!</h1>
               <p>
                 You can easily and for

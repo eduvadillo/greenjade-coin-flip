@@ -7,6 +7,7 @@ nav {
   background: #40cca5 !important;
   font-weight: 600;
   height: 6.8rem !important;
+  padding-right: 2vw;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -17,6 +18,7 @@ nav {
 
 .navbar {
   margin-top: 0 !important;
+  padding-top: 0.5rem;
 }
 
 #basic-navbar-nav {
@@ -57,7 +59,7 @@ nav {
   height: 7vh;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 980px) {
   .logo-white {
     height: 8vh;
     margin-left: 0vw;
@@ -69,6 +71,11 @@ nav {
     height: 7rem !important;
     width: 100vw;
   }
+
+  .navbar {
+    padding-top: 0;
+  }
+
   .navbar-nav {
     display: flex;
     justify-content: center;
