@@ -39,7 +39,7 @@ nav {
 }
 
 .logo-white {
-  height: 10vh;
+  height: 12vh;
 }
 
 .all-sec8 {
@@ -61,7 +61,7 @@ nav {
 
 @media (max-width: 980px) {
   .logo-white {
-    height: 8vh;
+    height: 14vh;
     margin-left: 0vw;
     margin-top: 0vh;
   }
