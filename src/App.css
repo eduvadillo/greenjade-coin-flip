@@ -112,19 +112,9 @@
   height: 82vh;
   display: flex;
   padding-top: 2rem;
-}
-
-.section3::before {
-  height: 82vh;
-  content: "";
   background-image: url("./images/table.png");
   background-size: cover;
-  position: absolute;
-  top: 213.2vh;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.75;
+  opacity: 0.7;
 }
 
 .section3-left {
@@ -261,7 +251,7 @@
 }
 
 .section7 {
-  height: 80vh;
+  height: 52vh;
   background-color: black;
 }
 .section-7-logos {
@@ -664,7 +654,7 @@ hr {
   }
 }
 
-@media (min-width: 1800px) {
+/* @media (min-width: 1800px) {
   .section1 {
     height: 55vh;
     display: flex;
@@ -755,3 +745,4 @@ hr {
     width: 33rem;
   }
 }
+ */
