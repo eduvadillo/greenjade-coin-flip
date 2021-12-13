@@ -1,0 +1,146 @@
+nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  flex-wrap: wrap !important;
+  background: #40cca5 !important;
+  font-weight: 600;
+  height: 6.8rem !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  color: white;
+  font-family: sans-serif;
+}
+
+.navbar {
+  margin-top: 0 !important;
+}
+
+#basic-navbar-nav {
+  width: 68vw;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+  font-size: 0.7rem !important;
+  margin-left: 1rem !important;
+}
+
+.container {
+  margin: 0 !important;
+  margin-left: 11rem !important;
+  height: 7rem !important;
+  width: 100vw;
+}
+
+.logo-white {
+  height: 10vh;
+}
+
+.all-sec8 {
+  display: flex;
+}
+
+.section8-right {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 3rem;
+  align-items: flex-end;
+}
+
+.section8-img-right {
+  height: 7vh;
+}
+
+@media (max-width: 600px) {
+  .logo-white {
+    height: 8vh;
+    margin-left: 0vw;
+    margin-top: 0vh;
+  }
+  .container {
+    margin: 0 !important;
+    margin-left: -1.5rem !important;
+    height: 7rem !important;
+    width: 100vw;
+  }
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    background: white;
+    color: black !important;
+    align-items: center;
+    width: 100vw !important;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: black !important;
+    font-size: 0.7rem !important;
+    margin-left: 0rem !important;
+  }
+}
+
+/*
+
+.navLogo {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+.nav__projectName {
+  color: #e4f9ff;
+  text-decoration: none;
+}
+
+.nav__authLinks {
+  display: flex;
+  align-items: center;
+}
+
+.authLink {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+.authLink + .authLink {
+  padding: 1em;
+  margin-right: 0.5rem;
+}
+
+.authLink:hover {
+  color: #ffffff;
+}
+
+.nav-logoutbtn {
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 0.5em 1em;
+  margin-left: 1em;
+  background-color: #5595ff;
+  box-shadow: 0 0 5px 0 aliceblue;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  color: #e3f2ff;
+  transition: all 0.2s ease-in-out;
+  position: sticky;
+  top: 0;
+}
+
+.nav-logoutbtn:hover {
+  transform: scale(1.05);
+  background-color: #d13e3e;
+}
+
+.logo-white {
+  height: 5.5rem;
+}
+ */
